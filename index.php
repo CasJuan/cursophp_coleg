@@ -34,3 +34,17 @@
 
 ?>
 
+<!-- /*************************************** */-->
+
+<?php
+    echo "constantes";
+
+    define("NOMBRE", "carlos pirovano");
+
+    const apellido = "pirovano";
+
+    echo apellido;
+    
+
+?>
+
