@@ -62,8 +62,23 @@
     /* multiple dimensiones */
     $tutor_2 = ["nombre"=>"Carlos","apellidos"=>"Carlitos","cursos"=>["PHP","JAVA","SQL"]];
 
-    echo$tutor_2["curso"][2];
+    echo$tutor_2["cursos"][2];
     echo count($tutor_2);
 
 ?>
+
+<!-- /*************************************** */-->
+
+<?php
+    echo "concatenacion";
+
+    $nombre = "Carlos";
+    $pais = "Argentina";
+
+    echo "El nombre es:" .$nombre.$pais;
+
+    echo "El pais de recidiencia es $pais"
+
+?>
+
 
