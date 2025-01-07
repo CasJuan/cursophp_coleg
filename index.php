@@ -48,3 +48,22 @@
 
 ?>
 
+<!-- /*************************************** */-->
+
+<?php
+    echo "arrays";
+
+    /* escalares */
+    $estudiantes = array("Carlos","Jose","Vanesa");
+
+    /* asociativos */
+    $tutor = ["nombre"=>"Carlos","apellidos"=>"Carlitos"];
+    
+    /* multiple dimensiones */
+    $tutor_2 = ["nombre"=>"Carlos","apellidos"=>"Carlitos","cursos"=>["PHP","JAVA","SQL"]];
+
+    echo$tutor_2["curso"][2];
+    echo count($tutor_2);
+
+?>
+
