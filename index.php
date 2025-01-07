@@ -1,8 +1,33 @@
-<?php 
-    
-    echo "Hola mundo";
+<!-- //Comentarios
+#comentarios 2
+/**
+    multiple 
+    linea 
+    de
+    comentarios
+*/ -->
+
+<?php
+    echo "hola mundo con comentarios";
+?>
 
 
+<!-- /*************************************** */-->
 
+<?php
+    echo "tipos de datos";
+    var_dump(7.5);
+    var_dump('Hola mundos');
+    var_dump(false);
 
 ?>
+
+<!-- /*************************************** */-->
+
+<?php
+    echo "variables";
+
+    $nombre = 'carlos';
+
+?>
+
