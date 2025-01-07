@@ -28,6 +28,9 @@
     echo "variables";
 
     $nombre = 'carlos';
+    $nombre_completo = 'carlos alfaro';
+
+    echo $nombre_completo;
 
 ?>
 
