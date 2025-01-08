@@ -6,4 +6,4 @@
         "numbre" => 3
     ];
 
-    
+    echo "City {$addres ['city']}, zipcode {$addres ['zipcode']}";
