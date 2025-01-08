@@ -77,7 +77,7 @@
 
     echo "El nombre es:" .$nombre.$pais;
 
-    echo "El pais de recidiencia es $pais"
+    echo "El pais de recidiencia es {$pais}"
 
 ?>
 
